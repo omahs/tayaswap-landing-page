@@ -1,0 +1,63 @@
+@import @/styles/helpers
+
+.generation
+    +d
+        margin-bottom: 96px
+    +m
+        margin-bottom: 64px
+
+.title
+    margin-bottom: 64px
+    +x
+        margin-bottom: 48px
+    +m
+        max-width: 250px
+        margin-bottom: 40px
+
+.list
+    display: flex
+    flex-wrap: wrap
+    margin: -32px -11px 0
+    +m
+        display: block
+        margin: 0
+
+.item
+    flex: 0 0 calc(33.333% - 22px)
+    width: calc(33.333% - 22px)
+    margin: 32px 11px 0
+    +m
+        width: 100%
+        margin: 32px 0 0
+
+.preview
+    position: relative
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 240px
+    margin-bottom: 22px
+    border-radius: 12px
+    font-size: 0
+    +d
+        margin-bottom: 18px
+    +t
+        height: 200px
+    +m
+        height: 240px
+        margin-bottom: 20px
+
+.image
+    border-radius: 32px
+    overflow: hidden
+    box-shadow: 0px 32px 32px -12px rgba(0, 0, 0, 0.15)
+
+.label
+    position: absolute
+    top: 8px
+    left: 8px
+    z-index: 1
+
+.content
+    +body
+    color: $n4
