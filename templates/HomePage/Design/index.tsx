@@ -18,7 +18,7 @@ const Design = ({}: DesignProps) => (
                     height={737}
                     alt="Design"
                 />
-                <div className={styles.circles}>
+                {/* <div className={styles.circles}>
                     {Array.from(Array(4).keys()).map((x) => (
                         <Animation
                             className={styles.circle}
@@ -29,7 +29,7 @@ const Design = ({}: DesignProps) => (
                             <span></span>
                         </Animation>
                     ))}
-                </div>
+                </div> */}
             </div>
         </div>
     </div>

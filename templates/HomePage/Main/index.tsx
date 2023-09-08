@@ -13,14 +13,14 @@ const Main = ({ scrollToRef }: MainProps) => (
     <div className={cn("section", styles.main)}>
         <div className={cn("container", styles.container)}>
             <div className={styles.wrap}>
-                <h1 className={cn("hero", styles.title)}>TA⅄A ˢʷᵃᵖ</h1>
+                <h1 className={cn("hero", styles.title)}>TA⅄Aˢʷᵃᵖ</h1>
                 <div className={cn("h4M", styles.info)}>
                 Decentralized Automated Market Maker on <a href="https://monad.xyz">MONAD</a>.
                 </div>
                 <div className={styles.btns}>
                     <a
                         className={cn("button", styles.button)}
-                        href="/"
+                        href="https://app.tayaswap.xyz"
                         target="_blank"
                         rel="noreferrer"
                     >

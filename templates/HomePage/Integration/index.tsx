@@ -17,7 +17,7 @@ const Integration = ({}: IntegrationProps) => (
                     height={740}
                     alt="Iphone"
                 />
-                <div className={styles.circles}>
+                {/* <div className={styles.circles}>
                     {Array.from(Array(3).keys()).map((x) => (
                         <Animation
                             className={styles.circle}
@@ -28,7 +28,7 @@ const Integration = ({}: IntegrationProps) => (
                             <span></span>
                         </Animation>
                     ))}
-                </div>
+                </div> */}
             </div>
             <div className={styles.wrap}>
                 <h2 className={cn("h2", styles.title)}>

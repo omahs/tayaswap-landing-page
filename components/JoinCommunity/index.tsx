@@ -30,7 +30,7 @@ const JoinCommunity = ({}: JoinCommunityProps) => (
                         </div>
                     ))}
                 </div> */}
-                <Link href="/pricing">
+                <Link href="https://discord.gg/ufbJHMzc">
                     <a className={cn("button", styles.button)}>Discord</a>
                 </Link>
             </div>

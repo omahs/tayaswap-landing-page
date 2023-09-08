@@ -17,10 +17,10 @@ const Website = ({ scrollToRef }: WebsiteProps) => {
             <div className={cn("container", styles.container)}>
                 <div className={styles.wrap}>
                     <h2 className={cn("h2", styles.title)}>
-                    Buy and Sell Tokens &nbsp; at the Best Prices.
+                    Buy and Sell Tokens <br />at the Best Prices.
                     </h2>
                     <div className={cn("h5M", styles.info)}>
-                        Without any effort, save a ton of time.
+                    join waitlist now!
                     </div>
                     <Form
                         className={styles.form}
