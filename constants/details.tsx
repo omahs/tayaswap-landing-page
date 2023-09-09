@@ -13,10 +13,10 @@ export const details = [
         },
     },
     {
-        title: "Realistic materials",
+        title: "Decentralized Swap",
         value: "realistic-materials",
-        info: "Realistic materials",
-        content: "Faster live render than other 3D design app for web.",
+        info: "Decentralized Swap",
+        content: "a swap refers to the exchange of token for another Token With your Crypto Wallet",
         video: "BHACKCNDMW8",
         image: {
             src: "/images/details-pic-2.png",
@@ -26,10 +26,10 @@ export const details = [
         },
     },
     {
-        title: "Live interaction",
+        title: "Liquidity Provider",
         value: "live-interaction",
-        info: "Realistic materials",
-        content: "Faster live render than other 3D design app for web.",
+        info: "Liquidity Provider",
+        content: "one of our core missions is to provide liquidity for swaps using our proprietary algorithm.",
         video: "BHACKCNDMW8",
         image: {
             src: "/images/details-pic-3.png",

@@ -17,46 +17,46 @@ class MyDocument extends Document {
             <Html>
                 <Head>
                     <meta
-                        content="Production-ready landing page template for SaaS and startups"
-                        name="Paradox – Premium SaaS landing page kit"
+                        content="The type of decentralized exchange mechanism that enables the trading of assets without the need for traditional order books or intermediaries."
+                        name="TayaSwap – Decentralized Automated Market Maker on MONAD."
                     />
                     <meta
-                        content="Paradox – Premium SaaS landing page kit"
+                        content="TayaSwap – Decentralized Automated Market Maker on MONAD."
                         property="og:title"
                     />
                     <meta
-                        content="Production-ready landing page template for SaaS and startups"
+                        content="The type of decentralized exchange mechanism that enables the trading of assets without the need for traditional order books or intermediaries."
                         property="og:description"
                     />
                     <meta
-                        content="%PUBLIC_URL%/fb-og-image.png"
+                        content="https://i.postimg.cc/rFMxsjPN/intro.png"
                         property="og:image"
                     />
                     <meta
                         property="og:url"
-                        content="https://ui8.net/ui8/products/paradox"
+                        content="https://tayaswap.xyz"
                     />
                     <meta
                         property="og:site_name"
-                        content="Paradox – Premium SaaS landing page kit"
+                        content="TayaSwap – Decentralized Automated Market Maker on MONAD."
                     />
                     <meta
-                        content="Paradox – Premium SaaS landing page kit"
+                        content="TayaSwap – Decentralized Automated Market Maker on MONAD."
                         property="twitter:title"
                     />
                     <meta
-                        content="Production-ready landing page template for SaaS and startups"
+                        content="TayaSwap – Decentralized Automated Market Maker on MONAD."
                         property="twitter:description"
                     />
                     <meta
-                        content="%PUBLIC_URL%/twitter-card.png"
+                        content="https://i.postimg.cc/rFMxsjPN/intro.png"
                         property="twitter:image"
                     />
                     <meta property="og:type" content="Article" />
                     <meta content="summary" name="twitter:card" />
-                    <meta name="twitter:site" content="@ui8" />
-                    <meta name="twitter:creator" content="@ui8" />
-                    <meta property="fb:admins" content="132951670226590" />
+                    <meta name="twitter:site" content="@tayaswap" />
+                    <meta name="twitter:creator" content="@tayaswap" />
+                    {/* <meta property="fb:admins" content="132951670226590" /> */}
                     <meta
                         name="viewport"
                         content="width=device-width, initial-scale=1"

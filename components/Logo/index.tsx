@@ -29,7 +29,7 @@ const Logo = ({
             />
             {title && (
                 <div className={cn("h5M", styles.title, titleClassName)}>
-                    TAYA SWAP
+                    TA⅄Aˢʷᵃᵖ
                 </div>
             )}
         </a>
