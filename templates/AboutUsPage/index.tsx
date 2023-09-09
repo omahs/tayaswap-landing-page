@@ -8,8 +8,8 @@ const AboutUsPage = () => {
     return (
         <Layout layoutNoOverflow>
             <Main />
-            <Photo />
-            <Team />
+            {/* <Photo /> */}
+            {/* <Team /> */}
             <JoinCommunity />
         </Layout>
     );

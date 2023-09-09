@@ -3,10 +3,14 @@ export const headerNavigation = [
         title: "Docs",
         url: "https://docs.tayaswap.xyz",
     },
-    // {
-    //     title: "Pricing",
-    //     url: "/pricing",
-    // },
+    {
+        title: "Roadmap",
+        url: "https://docs.tayaswap.xyz/roadmap",
+    },
+    {
+        title: "about us",
+        url: "/about-us",
+    },
     {
         title: "Testnet",
         url: "https://app.tayaswap.xyz",
@@ -30,67 +34,68 @@ export const footerNavigation = [
         value: "product",
         menu: [
             {
-                title: "Features",
-                url: "/",
+                title: "Overview",
+                url: "https://docs.tayaswap.xyz/overview",
                 external: false,
             },
             {
-                title: "Pricing",
-                url: "/pricing",
+                title: "Roadmap",
+                url: "https://docs.tayaswap.xyz/roadmap",
                 external: false,
             },
             {
-                title: "Download",
-                url: "/download",
+                title: "SDK/API",
+                url: "https://docs.tayaswap.xyz/sdk-api",
                 external: false,
             },
         ],
     },
-    // {
-    //     title: "Company",
-    //     value: "company",
-    //     menu: [
-    //         {
-    //             title: "About",
-    //             url: "/about-us",
-    //             external: false,
-    //         },
-    //         {
-    //             title: "Blog",
-    //             url: "/blog",
-    //             external: false,
-    //         },
-    //         {
-    //             title: "Contact",
-    //             url: "/contact",
-    //             external: false,
-    //         },
-    //     ],
-    // },
-    // {
-    //     title: "Community",
-    //     value: "community",
-    //     menu: [
-    //         {
-    //             title: "Help",
-    //             url: "/help",
-    //             external: false,
-    //         },
-    //         {
-    //             title: "Behance",
-    //             url: "https://www.behance.net/ui8",
-    //             external: true,
-    //         },
-    //         {
-    //             title: "Twitter",
-    //             url: "https://twitter.com/ui8",
-    //             external: true,
-    //         },
-    //         {
-    //             title: "Linked in",
-    //             url: "https://www.linkedin.com/company/ui8",
-    //             external: true,
-    //         },
-    //     ],
-    // },
+    {
+        title: "Company",
+        value: "company",
+        menu: [
+            {
+                title: "About",
+                url: "/about-us",
+                external: false,
+            },
+           
+            {
+                title: "Contact",
+                url: "mailto:contact@tayaswap.xyz",
+                external: false,
+            },
+             {
+                title: "Sublabs",
+                url: "https://sublabs.xyz",
+                external: false,
+            },
+        ],
+    },
+    {
+        title: "Community",
+        value: "community",
+        menu: [
+            {
+                title: "Github",
+                url: "https://github.com/sub-labs",
+                external: false,
+            },
+            {
+                title: "Discord",
+                url: "https://discord.gg",
+                external: true,
+            },
+            {
+                title: "X.COM",
+                url: "https://x.com/tayaswap",
+                external: true,
+            },
+            {
+                title: "Linkedin",
+                url: "https://www.linkedin.com/company/sublabs",
+                external: true,
+            },
+        ],
+    },
 ];

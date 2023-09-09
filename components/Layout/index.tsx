@@ -24,7 +24,7 @@ const Layout = ({ layoutNoOverflow, children, footerHide }: LayoutProps) => {
     return (
         <>
             <Head>
-                <title>TayaSWAP</title>
+                <title>TA⅄Aˢʷᵃᵖ</title>
             </Head>
             <div
                 className={cn(styles.layout, {
