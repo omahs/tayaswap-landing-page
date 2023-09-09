@@ -28,10 +28,19 @@ const Header = ({}: HeaderProps) => {
         >
             <div className={cn("container", styles.container)}>
                 <Logo className={styles.logo} />
-                <SignIn
+                {/* <SignIn
                     className={cn("button-gray", styles.button)}
                     title="Join Testnet"
-                />
+                    
+                /> */}
+                 <a
+                        className={cn("button-gray", styles.button)}
+                        href="https://app.tayaswap.xyz"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Join Testnet
+                    </a>
                 <Menu navigation={headerNavigation} />
             </div>
         </header>

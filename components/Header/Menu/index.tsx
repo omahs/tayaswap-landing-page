@@ -65,7 +65,7 @@ const Menu = ({ navigation }: MenuProps) => {
                     <div className={styles.details}>
                         <div className={styles.text}>Contact Us</div>
                         <a
-                            href="mailto:hello@ui8.net"
+                            href="mailto:contact@tayaswap.xyz"
                             className={cn("h6", styles.mail)}
                             target="_blank"
                             rel="noreferrer"
