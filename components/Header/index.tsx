@@ -13,8 +13,17 @@ import 'react-toastify/dist/ReactToastify.css';
 
 type HeaderProps = {};
 
-const notify = ()=> {
-    toast ('gmonad 🙌💜 Testnet Coming Soon!')    
+const notify = ()=> {  
+    toast('gmonad 🙌💜 Testnet Coming Soon!', {
+        position: "bottom-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        }); 
   };
 
 const Header = ({}: HeaderProps) => {
@@ -48,6 +57,18 @@ const Header = ({}: HeaderProps) => {
                     >
                         Join Testnet
                     </button>
+                    {/* <ToastContainer
+position="bottom-center"
+autoClose={5000}
+hideProgressBar={false}
+newestOnTop={false}
+closeOnClick
+rtl={false}
+pauseOnFocusLoss
+draggable
+pauseOnHover
+theme="light"
+/> */}
                 <Menu navigation={headerNavigation} />
             </div>
         </header>

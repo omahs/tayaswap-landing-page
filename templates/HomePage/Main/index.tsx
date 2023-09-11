@@ -12,7 +12,16 @@ type MainProps = {
     scrollToRef: any;
 };
 const notify = ()=> {
-  toast ('gmonad 🙌💜 Testnet Coming Soon!')    
+    toast('gmonad 🙌💜 Testnet Coming Soon!', {
+        position: "bottom-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        });
 };
 const Main = ({ scrollToRef }: MainProps) => (
     <div className={cn("section", styles.main)}>
