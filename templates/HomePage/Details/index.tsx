@@ -8,6 +8,9 @@ import Select from "@/components/Select";
 
 import { details } from "@/constants/details";
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 type DetailsProps = {};
 
 const Details = ({}: DetailsProps) => {
@@ -15,6 +18,20 @@ const Details = ({}: DetailsProps) => {
     const [visibleModal, setVisibleModal] = useState<boolean>(false);
 
     const handleChange = (value: string) => setSorting(value);
+
+    const notify = ()=> {
+        toast('gmonad 🙌💜 Testnet Coming Soon!', {
+            position: "bottom-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            });
+      };
+
 
     return (
         <div className={cn("section", styles.details)}>
@@ -56,13 +73,21 @@ const Details = ({}: DetailsProps) => {
                                     <div className={cn("h5M", styles.content)}>
                                         {item.content}
                                     </div>
-                                    <button
+                                    {/* <button
                                         className={cn("button", styles.button)}
                                         onClick={() => setVisibleModal(true)}
                                     >
                                     Testnet
-                                    </button>
-                                    <Modal
+                                    </button> */}
+
+<button onClick={notify}
+                        className={cn("button", styles.button)}
+                       
+                    >
+                        Testnet
+                    </button>
+
+                                    {/* <Modal
                                         visible={visibleModal}
                                         onClose={() => setVisibleModal(false)}
                                         video
@@ -78,7 +103,7 @@ const Details = ({}: DetailsProps) => {
                                                 allowFullScreen
                                             ></iframe>
                                         </div>
-                                    </Modal>
+                                    </Modal> */}
                                 </div>
                                 <div className={styles.preview}>
                                     <div className={styles.image}>
