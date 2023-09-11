@@ -5,10 +5,15 @@ import Image from "@/components/Image";
 import Scroll from "@/components/Scroll";
 import Animation from "@/components/Animation";
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 type MainProps = {
     scrollToRef: any;
 };
-
+const notify = ()=> {
+  toast ('gmonad 🙌💜 Testnet Coming Soon!')    
+};
 const Main = ({ scrollToRef }: MainProps) => (
     <div className={cn("section", styles.main)}>
         <div className={cn("container", styles.container)}>
@@ -18,14 +23,15 @@ const Main = ({ scrollToRef }: MainProps) => (
                 Decentralized Automated Market Maker on <a href="https://monad.xyz">MONAD</a>.
                 </div>
                 <div className={styles.btns}>
-                    <a
+                    <button onClick={notify}
                         className={cn("button", styles.button)}
-                        href="https://app.tayaswap.xyz"
-                        target="_blank"
-                        rel="noreferrer"
+                        // href="https://app.tayaswap.xyz"
+                        // target="_blank"
+                        // rel="noreferrer"
                     >
                         Join Testnet
-                    </a>
+                    </button>
+                    <ToastContainer />
                     <Link href="/about-us">
                         <a className={cn("button-gray", styles.button)}>
                             Learn more

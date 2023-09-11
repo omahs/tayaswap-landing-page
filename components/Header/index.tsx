@@ -8,7 +8,14 @@ import Menu from "./Menu";
 
 import { headerNavigation } from "@/constants/navigation";
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 type HeaderProps = {};
+
+const notify = ()=> {
+    toast ('gmonad 🙌💜 Testnet Coming Soon!')    
+  };
 
 const Header = ({}: HeaderProps) => {
     const [headerStyle, setHeaderStyle] = useState<boolean>(false);
@@ -33,14 +40,14 @@ const Header = ({}: HeaderProps) => {
                     title="Join Testnet"
                     
                 /> */}
-                 <a
+                 <button onClick={notify}
                         className={cn("button-gray", styles.button)}
-                        href="https://app.tayaswap.xyz"
-                        target="_blank"
-                        rel="noreferrer"
+                        // href="https://app.tayaswap.xyz"
+                        // target="_blank"
+                        // rel="noreferrer"
                     >
                         Join Testnet
-                    </a>
+                    </button>
                 <Menu navigation={headerNavigation} />
             </div>
         </header>
