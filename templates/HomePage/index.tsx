@@ -15,6 +15,7 @@ const HomePage = () => {
 
     return (
         <Layout>
+            
             <Main scrollToRef={scrollToRef} />
             <Website scrollToRef={scrollToRef} />
             <Generation />

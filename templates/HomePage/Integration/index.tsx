@@ -2,6 +2,7 @@ import styles from "./Integration.module.sass";
 import cn from "classnames";
 import Image from "@/components/Image";
 import Animation from "@/components/Animation";
+import css from './style.module.css'
 
 import { integrations } from "@/constants/integrations";
 
@@ -10,12 +11,11 @@ type IntegrationProps = {};
 const Integration = ({}: IntegrationProps) => (
     <div className={cn("section", styles.integration)}>
         <div className={cn("container", styles.container)}>
-            <div className={styles.preview}>
-                <Image
+            <div className={css['img-wrapper']}>
+                <img
                     src="/images/iphone.png"
-                    width={768}
-                    height={740}
                     alt="Iphone"
+                    className={css.image}
                 />
                 {/* <div className={styles.circles}>
                     {Array.from(Array(3).keys()).map((x) => (

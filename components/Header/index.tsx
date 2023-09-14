@@ -11,6 +11,8 @@ import { headerNavigation } from "@/constants/navigation";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
+
+
 type HeaderProps = {};
 
 const notify = ()=> {  
@@ -33,6 +35,8 @@ const Header = ({}: HeaderProps) => {
         setHeaderStyle(currPos.y <= -2);
     });
 
+
+    
     return (
         <header
             className={cn(
@@ -42,6 +46,8 @@ const Header = ({}: HeaderProps) => {
                 styles.header
             )}
         >
+
+
             <div className={cn("container", styles.container)}>
                 <Logo className={styles.logo} />
                 {/* <SignIn
