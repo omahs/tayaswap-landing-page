@@ -51,7 +51,7 @@ const Main = ({ scrollToRef }: MainProps) => (
           </div>
         </div>
         <div className={css['img-wrapper']}>
-          <img src="/images/tay-hero.svg" alt="Hero" className={css.image} />
+          <img src="/images/tay-hero.jpg" alt="Hero" className={css.image} />
         </div>
       </div>
       {/* <div className={styles.ball}></div> */}
