@@ -2,7 +2,7 @@ export const details = [
     {
         title: "1000x Faster Exchange",
         value: "render-faster",
-        info: "10x",
+        info: "1000x",
         content: "Faster Transaction on Monad blockchain with 10,000 TPS ",
         video: "BHACKCNDMW8",
         image: {
