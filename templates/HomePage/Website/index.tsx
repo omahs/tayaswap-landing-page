@@ -22,8 +22,13 @@ const Website = ({ scrollToRef }: WebsiteProps) => {
                     <div className={cn("h5M", styles.info)}>
                     join waitlist now!
                     </div>
+                    function SandboxExample() return (
+    <div>
                     <iframe src="https://paragraph.xyz/@tayaswap/embed?minimal=true" width="480" height="45" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"/>
-                </div>
+             </div>
+  );
+                    
+                    </div>
                 {/* <div className={styles.previewMobile}>
                     <Image
                         src="/images/website-pic-mobile.png"
