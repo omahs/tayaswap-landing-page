@@ -22,15 +22,7 @@ const Website = ({ scrollToRef }: WebsiteProps) => {
                     <div className={cn("h5M", styles.info)}>
                     join waitlist now!
                     </div>
-                    <Form
-                        className={styles.form}
-                        placeholder="Your email"
-                        type="email"
-                        icon="mail"
-                        value={email}
-                        setValue={setEmail}
-                        onSubmit={() => console.log("Submit")}
-                    />
+                    <div id="custom-substack-embed"></div>
                 </div>
                 {/* <div className={styles.previewMobile}>
                     <Image
@@ -58,7 +50,23 @@ const Website = ({ scrollToRef }: WebsiteProps) => {
                 </div> */}
             </div>
         </div>
-    );
+        
+    );<script>
+  window.CustomSubstackWidget = {
+    substackUrl: ".substack.com",
+    placeholder: "example@gmail.com",
+    buttonText: "Subscribe",
+    theme: "custom",
+    colors: {
+      primary: "#FFFFFF",
+      input: "#000000",
+      email: "#FFFFFF",
+      text: "#000000",
+    },
+    // Go to substackapi.com to unlock custom redirect
+  };
+</script>
+<script src="https://substackapi.com/widget.js" async></script>
 };
 
 export default Website;
