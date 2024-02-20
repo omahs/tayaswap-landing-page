@@ -24,7 +24,7 @@ const Website = ({ scrollToRef }: WebsiteProps) => {
                     </div>
                     function SandboxExample() return (
     <div>
-                    <iframe src="https://paragraph.xyz/@tayaswap/embed?minimal=true" width="480" height="45" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"/>
+        <iframe src="https://paragraph.xyz/@tayaswap/embed?minimal=true" width="480" height="45" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
              </div>
   );
                     
