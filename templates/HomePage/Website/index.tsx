@@ -22,7 +22,7 @@ const Website = ({ scrollToRef }: WebsiteProps) => {
                     <div className={cn("h5M", styles.info)}>
                     join waitlist now!
                     </div>
-                    <div id="custom-substack-embed"></div>
+                    <iframe src="https://paragraph.xyz/@tayaswap/embed?minimal=true" width="480" height="45" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
                 </div>
                 {/* <div className={styles.previewMobile}>
                     <Image
@@ -51,22 +51,7 @@ const Website = ({ scrollToRef }: WebsiteProps) => {
             </div>
         </div>
         
-    );<script>
-  window.CustomSubstackWidget = {
-    substackUrl: ".substack.com",
-    placeholder: "example@gmail.com",
-    buttonText: "Subscribe",
-    theme: "custom",
-    colors: {
-      primary: "#FFFFFF",
-      input: "#000000",
-      email: "#FFFFFF",
-      text: "#000000",
-    },
-    // Go to substackapi.com to unlock custom redirect
-  };
-</script>
-<script src="https://substackapi.com/widget.js" async></script>
+    );
 };
 
 export default Website;
