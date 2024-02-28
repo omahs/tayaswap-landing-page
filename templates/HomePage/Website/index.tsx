@@ -21,18 +21,15 @@ const Website = ({ scrollToRef }: WebsiteProps) => {
                     </h2>
                     <div className={cn("h5M", styles.info)}>
                     join waitlist now!
-                    </div>
-                    function SandboxExample() {
-  return (
-    <div>
-      <iframe src="https://paragraph.xyz/@tayaswap/embed?minimal=true" width="480" height="45" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
-    </div>
-  );
-}
-
-
-                    
-                    </div>
+    <Form
+                        className={styles.form}
+                        placeholder="Your email"
+                        type="email"
+                        icon="mail"
+                        value={email}
+                        setValue={setEmail}
+                        onSubmit={() => console.log("Submit")}
+                    />                
                 {/* <div className={styles.previewMobile}>
                     <Image
                         src="/images/website-pic-mobile.png"
