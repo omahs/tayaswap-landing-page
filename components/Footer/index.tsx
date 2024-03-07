@@ -29,7 +29,7 @@ const Footer = ({}: FooterProps) => {
                             title
                         />
                         <div className={styles.info}>
-                        Decentralized Automated Market Makeron <a href="https://monad.xyz">MONAD</a>.
+                        Decentralized Automated Market Maker on <a href="https://monad.xyz">MONAD</a>.
                         </div>
                     </div>
                 </div>
